@@ -1,0 +1,9 @@
+{
+   "javascript.preferences.importModuleSpecifierEnding": "js",
+   "typescript.preferences.importModuleSpecifierEnding": "js",
+   "git.showActionButton": {
+      "commit": true,
+      "publish": true,
+      "sync": true
+   },
+}
