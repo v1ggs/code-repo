@@ -1,0 +1,12 @@
+.git
+.husky
+# .vscode
+.project
+
+logs
+vendor
+node_modules
+
+.env
+
+TODO*
