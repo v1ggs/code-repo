@@ -62,6 +62,10 @@
 		<!-- Overrides example:
 		 <exclude name="PSR12.Problematic.Sniff.Here" />
 		-->
+		<exclude name="PSR1.Files.SideEffects.FoundWithSymbols" />
+		<exclude name="Generic.Files.LineLength.TooLong" />
+		<!-- The file-level docblock must follow the opening PHP tag in the file header -->
+		<exclude name="PSR12.Files.FileHeader.IncorrectOrder" />
 	</rule>
 
 	<!-- Full WordPress Ruleset (only using parts of it below)
