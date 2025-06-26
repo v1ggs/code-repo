@@ -4,6 +4,6 @@
    "git.showActionButton": {
       "commit": true,
       "publish": true,
-      "sync": true
+      // "sync": true
    },
 }
