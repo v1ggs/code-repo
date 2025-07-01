@@ -5,15 +5,19 @@ namespace Your_Namespace;
 /**
  * Restrict access to wp-login.php using a query string "gate".
  *
- * This function blocks access to the login page unless a specific
- * query string key/value is present (e.g. ?password=your_value).
+ * Blocks access to the login page unless a specific query string key/value
+ * is present (e.g. ?password=your_value).
  *
  * Security & Reliability:
  * - Obscures wp-login.php but does NOT replace real authentication.
- * - Intended for personal sites or limited-trust environments.
- * - Query string can leak via browser history, referrer headers, or logs.
+ * - Intended for personal sites or trusted-user setups only.
+ * - Query string can leak via:
+ *   - Browser history
+ *   - Referrer headers (e.g. clicking external links from login page)
+ *   - Analytics or proxy logs
  * - Use HTTPS to prevent interception.
- * - Avoid use on public, multi-user, or membership sites.
+ * - Avoid external links on the login page, or add:
+ *     rel="noreferrer noopener" and/or referrerpolicy="no-referrer"
  *
  * Recommended:
  * - Define the password via a constant in wp-config.php instead of hardcoding.
