@@ -17,4 +17,4 @@ function remove_admin_menu_items()
     // remove_menu_page('options-general.php'); // Settings
 }
 
-add_action('admin_init', __NAMESPACE__ . '\\remove_admin_menu_items');
+add_action('admin_menu', __NAMESPACE__ . '\\remove_admin_menu_items');
