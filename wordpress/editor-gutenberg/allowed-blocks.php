@@ -4,7 +4,7 @@ namespace Your_Namespace;
 
 /**
  * NOTE:
- * This filter does not remove blocks, it just hides them from the inserter.
+ * This filter (allowed_block_types_all) does not remove blocks, it just hides them from the inserter.
  * This ensures no errors occur, when a hidden block is found in the content.
  * @see https://developer.wordpress.org/block-editor/reference-guides/filters/block-filters/#hiding-blocks-from-the-inserter
  */
