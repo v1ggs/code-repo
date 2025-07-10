@@ -1,6 +1,6 @@
 <?php
 
-namespace Your_Namespace;
+namespace Code_Repo;
 
 // https://github.com/vinkla/wordplate
 function hide_admin_bar_menu_items(\WP_Admin_Bar $menu)

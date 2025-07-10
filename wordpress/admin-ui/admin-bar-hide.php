@@ -1,6 +1,6 @@
 <?php
 
-namespace Your_Namespace;
+namespace Code_Repo;
 
 // The show_admin_bar filter toggles the display status of the Toolbar
 // for the front side of your website (you cannot turn off the toolbar

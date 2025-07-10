@@ -1,6 +1,6 @@
 <?php
 
-namespace Your_Namespace;
+namespace Code_Repo;
 
 // Use this to hide the "Screen Options" panel everywhere.
 add_filter('screen_options_show_screen', '__return_false');

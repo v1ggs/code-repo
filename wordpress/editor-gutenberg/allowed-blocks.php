@@ -1,6 +1,6 @@
 <?php
 
-namespace Your_Namespace;
+namespace Code_Repo;
 
 /**
  * NOTE:

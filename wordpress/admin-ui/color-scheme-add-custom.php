@@ -1,6 +1,6 @@
 <?php
 
-namespace Your_Namespace;
+namespace Code_Repo;
 
 // Use this page to generate a custom color scheme:
 // https://wpadmincolors.com/generate

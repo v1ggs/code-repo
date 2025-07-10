@@ -1,6 +1,6 @@
 <?php
 
-namespace Your_Namespace;
+namespace Code_Repo;
 
 // Remove customizer options.
 function remove_customizer_options($wp_customize)

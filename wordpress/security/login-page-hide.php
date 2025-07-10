@@ -1,6 +1,6 @@
 <?php
 
-namespace Your_Namespace;
+namespace Code_Repo;
 
 /**
  * Restrict access to wp-login.php using a query string "gate".

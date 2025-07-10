@@ -1,6 +1,6 @@
 <?php
 
-namespace Your_Namespace;
+namespace Code_Repo;
 
 // Customize admin footer text
 // https://developer.wordpress.org/reference/hooks/admin_footer_text/

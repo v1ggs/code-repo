@@ -1,6 +1,6 @@
 <?php
 
-namespace Your_Namespace;
+namespace Code_Repo;
 
 // Uncomment the lines for the admin menu items you want to hide.
 function remove_admin_menu_items()

@@ -1,6 +1,6 @@
 <?php
 
-namespace Your_Namespace;
+namespace Code_Repo;
 
 // Dev-only helpers for 'local' or 'development' environments:
 // Adds a visible admin notice in WP backend.

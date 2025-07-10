@@ -1,6 +1,6 @@
 <?php
 
-namespace Your_Namespace;
+namespace Code_Repo;
 
 /**
  * Detach default 'category' and 'post_tag' taxonomies from 'post' post type.
