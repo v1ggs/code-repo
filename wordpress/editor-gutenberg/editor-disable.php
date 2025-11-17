@@ -71,3 +71,30 @@ add_filter('use_block_editor_for_post_type', __NAMESPACE__ . '\\disable_gutenber
  * Use this only if the project never uses Gutenberg.
  */
 add_filter('use_block_editor_for_post', '__return_false', 100);
+
+
+
+/**
+ * ----------------------------------------------------------------
+ * REMOVE GUTENBERG ASSETS (CSS/JS)
+ * ----------------------------------------------------------------
+ * Even with Gutenberg disabled, WordPress still loads block editor
+ * styles and global styles on both front-end and back-end.
+ * These styles are not CPT-specific; they are enqueued site-wide.
+ *
+ * Use this function to dequeue them if you never use Gutenberg blocks.
+ */
+function disable_gutenberg_assets()
+{
+    // main block editor styles
+    wp_dequeue_style('wp-block-library');
+
+    // theme-specific block styles
+    wp_dequeue_style('wp-block-library-theme');
+
+    // full-site editing global styles
+    wp_dequeue_style('global-styles');
+}
+
+add_action('wp_enqueue_scripts', __NAMESPACE__ . '\\disable_gutenberg_assets', 100);
+add_action('admin_enqueue_scripts', __NAMESPACE__ . '\\disable_gutenberg_assets', 100);
