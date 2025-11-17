@@ -10,3 +10,7 @@ function custom_admin_footer_text()
 }
 
 add_filter('admin_footer_text', __NAMESPACE__ . '\\custom_admin_footer_text');
+
+
+// Remove WP version from admin footer
+add_filter('update_footer', fn() => '', 999);
