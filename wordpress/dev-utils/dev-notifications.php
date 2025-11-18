@@ -38,10 +38,18 @@ function load_dev_helpers()
     /**
      * Disable features you don't need by commenting them out.
      */
+
     if (in_array($env, ['local', 'development'], true)) {
+        // Admin notice
         add_action('admin_notices', __NAMESPACE__ . '\\admin_dev_notice');
+
+        // Console log and favicon for front-end
         add_action('wp_enqueue_scripts', __NAMESPACE__ . '\\dev_notice_console');
         add_action('wp_head', __NAMESPACE__ . '\\dev_favicon');
+
+        // Console log and favicon for admin
+        add_action('admin_enqueue_scripts', __NAMESPACE__ . '\\dev_notice_console');
+        add_action('admin_head', __NAMESPACE__ . '\\dev_favicon');
     }
 }
 
