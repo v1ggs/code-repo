@@ -5,6 +5,7 @@
 
 logs
 vendor
+!wordpress/vendor
 node_modules
 
 .env
