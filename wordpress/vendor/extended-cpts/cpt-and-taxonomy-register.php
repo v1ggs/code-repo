@@ -3,8 +3,8 @@
 namespace Code_Repo;
 
 /**
- * https://github.com/johnbillion/extended-cpts
  * https://github.com/johnbillion/extended-cpts#usage
+ * https://github.com/johnbillion/extended-cpts/wiki
  *
  * Extended CPTs is a library which provides extended functionality to WordPress custom post types
  * and taxonomies.
@@ -22,7 +22,11 @@ namespace Code_Repo;
  * The register_extended_post_type() and register_extended_taxonomy() functions are ultimately
  * wrappers for the register_post_type() and register_taxonomy() functions in WordPress core,
  * so any of the parameters from those functions can be used.
+ *
+ * https://github.com/johnbillion/extended-cpts/wiki/Registering-Post-Types
  * https://developer.wordpress.org/reference/functions/register_post_type/
+ *
+ * https://github.com/johnbillion/extended-cpts/wiki/Registering-taxonomies
  * https://developer.wordpress.org/reference/functions/register_taxonomy/
  */
 
