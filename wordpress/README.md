@@ -2,9 +2,13 @@
 
 ## Info
 
-> - Many of these scripts were created with chat GPT.
-> - Not all scripts have been tested, some might need improvements/modifications.
+> - Most, if not all, of these scripts were created with chat GPT.
+> - Not all scripts have been tested, some might need fixes/improvements/modifications.
 > - The scripts are not meant to be included as a whole; instead, you should copy and paste only the relevant parts into the functions.php file.
+
+## Tools
+
+[wpturbo.dev](https://wpturbo.dev/generators/)
 
 ## Other useful repositories
 
