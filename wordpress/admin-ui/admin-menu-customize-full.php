@@ -55,6 +55,7 @@ function debug_admin_menu()
     exit;
 }
 
+// https://developer.wordpress.org/reference/functions/register_post_type/#menu_position
 
 /*
     Core positions:

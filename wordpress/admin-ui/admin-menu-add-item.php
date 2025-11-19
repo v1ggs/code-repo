@@ -43,6 +43,8 @@ function debug_admin_menu()
 }
 
 
+// https://developer.wordpress.org/reference/functions/register_post_type/#menu_position
+
 /*
     Core positions:
     2. Dashboard
