@@ -6,11 +6,12 @@ namespace Code_Repo;
 // https://developer.wordpress.org/reference/hooks/admin_footer_text/
 function custom_admin_footer_text()
 {
-    echo '<a href="https://example.com/" target="_blank">Footer text here.</a>';
+    echo '<a href="' . esc_url(home_url('/')) . '" target="_blank" rel="noopener">' . esc_html(get_bloginfo('name')) . '</a>';
 }
 
 add_filter('admin_footer_text', __NAMESPACE__ . '\\custom_admin_footer_text');
 
 
-// Remove WP version from admin footer
-add_filter('update_footer', fn() => '', 999);
+// Replace WP version from admin footer
+add_filter('update_footer', fn() => '<a href="https://igorvracar.com" target="_blank" rel="noopener">Developer website</a>
+', 999);
